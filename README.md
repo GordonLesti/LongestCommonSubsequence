@@ -6,7 +6,7 @@
 [![Coverage Status][ico-coveralls]][link-coveralls]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-PHP Implementation of Longest common subsequence algorith that works with UTF-8.
+PHP Implementation of Longest common subsequence algorithm that works with UTF-8 input.
 
 ## Install
 
@@ -22,10 +22,10 @@ $ composer require gordonlesti/longest-common-subsequence
 use GordonLesti\LongestCommonSubsequence\LongestCommonSubsequence;
 ```
 
-With default default costs.
+Calculates the longest common subsequence of both strings and returns the length.
 
 ``` php
-$$lcsDist = LongestCommonSubsequence::lcs("DABDC", "CBDBBAC");
+$lcsDist = LongestCommonSubsequence::lcs("DABDC", "CBDBBAC");
 ```
 
 ## Change log
